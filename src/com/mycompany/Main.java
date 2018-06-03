@@ -55,9 +55,6 @@ public class Main {
                         hashMap.get(words[i]).add(words[i + 1]);
                     }
                 }
-           /* for (Map.Entry<String, ArrayList<String>> entry : hashMap.entrySet()){
-                System.out.println("[" + entry.getKey() + "] " +  entry.getValue());
-            }*/
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -73,7 +70,6 @@ public class Main {
             }
 
         }
-
         //read .ser
         //make sentence
 
